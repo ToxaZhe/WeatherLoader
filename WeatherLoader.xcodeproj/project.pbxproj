@@ -13,6 +13,7 @@
 		CE315F202031B9AC007A71C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE315F1F2031B9AC007A71C0 /* Assets.xcassets */; };
 		CE315F232031B9AC007A71C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE315F212031B9AC007A71C0 /* LaunchScreen.storyboard */; };
 		CE315F2B2031BA72007A71C0 /* LoadDealer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE315F2A2031BA72007A71C0 /* LoadDealer.swift */; };
+		CE315F2D2031BBA0007A71C0 /* WeatherApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE315F2C2031BBA0007A71C0 /* WeatherApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CE315F222031B9AC007A71C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE315F242031B9AC007A71C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE315F2A2031BA72007A71C0 /* LoadDealer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadDealer.swift; sourceTree = "<group>"; };
+		CE315F2C2031BBA0007A71C0 /* WeatherApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				CE315F182031B9AC007A71C0 /* AppDelegate.swift */,
 				CE315F1A2031B9AC007A71C0 /* ViewController.swift */,
 				CE315F2A2031BA72007A71C0 /* LoadDealer.swift */,
+				CE315F2C2031BBA0007A71C0 /* WeatherApi.swift */,
 				CE315F1C2031B9AC007A71C0 /* Main.storyboard */,
 				CE315F1F2031B9AC007A71C0 /* Assets.xcassets */,
 				CE315F212031B9AC007A71C0 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE315F1B2031B9AC007A71C0 /* ViewController.swift in Sources */,
+				CE315F2D2031BBA0007A71C0 /* WeatherApi.swift in Sources */,
 				CE315F2B2031BA72007A71C0 /* LoadDealer.swift in Sources */,
 				CE315F192031B9AC007A71C0 /* AppDelegate.swift in Sources */,
 			);

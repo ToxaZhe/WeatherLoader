@@ -48,4 +48,21 @@ class LoadDealer {
             return data
         }
     }
+    func loadImage(fromUrl url: URL, completion: @escaping (Result<Any>) -> Void) {
+        URLSession.shared.dataTask(with: url) { data, response, error in
+            let httpResponse = response as? HTTPURLResponse
+            guard  httpResponse?.statusCode == 200 || httpResponse?.statusCode == nil else {
+                completion(Result.statusCode(httpResponse!.statusCode))
+                return
+            }
+            guard error == nil else {
+                completion(Result.statusCode((error! as NSError).code))
+                return
+            }
+            guard let data = data else {
+                return
+            }
+            completion(Result.data(data))
+            }.resume()
+    }
 }
