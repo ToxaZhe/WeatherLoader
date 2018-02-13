@@ -17,6 +17,10 @@
 		CE315F2F2031BDBC007A71C0 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE315F2E2031BDBC007A71C0 /* Globals.swift */; };
 		CE315F312031BE09007A71C0 /* CityWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE315F302031BE09007A71C0 /* CityWeather.swift */; };
 		CE315F332031BE6C007A71C0 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE315F322031BE6C007A71C0 /* WeatherModel.swift */; };
+		CE3EB2FC2031CB3D0041D6C1 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3EB2FB2031CB3D0041D6C1 /* WeatherCell.swift */; };
+		CE3EB2FE2031E2920041D6C1 /* DialogHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3EB2FD2031E2920041D6C1 /* DialogHelper.swift */; };
+		CE3EB3002031E7870041D6C1 /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3EB2FF2031E7870041D6C1 /* Connectivity.swift */; };
+		CE3EB3022031EAA50041D6C1 /* NoConnectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3EB3012031EAA50041D6C1 /* NoConnectionVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		CE315F2E2031BDBC007A71C0 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
 		CE315F302031BE09007A71C0 /* CityWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityWeather.swift; sourceTree = "<group>"; };
 		CE315F322031BE6C007A71C0 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		CE3EB2FB2031CB3D0041D6C1 /* WeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
+		CE3EB2FD2031E2920041D6C1 /* DialogHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogHelper.swift; sourceTree = "<group>"; };
+		CE3EB2FF2031E7870041D6C1 /* Connectivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
+		CE3EB3012031EAA50041D6C1 /* NoConnectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoConnectionVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,12 +74,16 @@
 			children = (
 				CE315F182031B9AC007A71C0 /* AppDelegate.swift */,
 				CE315F1A2031B9AC007A71C0 /* ShowWeatherVC.swift */,
+				CE3EB3012031EAA50041D6C1 /* NoConnectionVC.swift */,
 				CE315F2A2031BA72007A71C0 /* LoadDealer.swift */,
+				CE3EB2FB2031CB3D0041D6C1 /* WeatherCell.swift */,
 				CE315F2C2031BBA0007A71C0 /* WeatherApi.swift */,
 				CE315F302031BE09007A71C0 /* CityWeather.swift */,
 				CE315F322031BE6C007A71C0 /* WeatherModel.swift */,
 				CE315F2E2031BDBC007A71C0 /* Globals.swift */,
+				CE3EB2FD2031E2920041D6C1 /* DialogHelper.swift */,
 				CE315F1C2031B9AC007A71C0 /* Main.storyboard */,
+				CE3EB2FF2031E7870041D6C1 /* Connectivity.swift */,
 				CE315F1F2031B9AC007A71C0 /* Assets.xcassets */,
 				CE315F212031B9AC007A71C0 /* LaunchScreen.storyboard */,
 				CE315F242031B9AC007A71C0 /* Info.plist */,
@@ -153,8 +165,12 @@
 			files = (
 				CE315F1B2031B9AC007A71C0 /* ShowWeatherVC.swift in Sources */,
 				CE315F2D2031BBA0007A71C0 /* WeatherApi.swift in Sources */,
+				CE3EB3002031E7870041D6C1 /* Connectivity.swift in Sources */,
+				CE3EB2FE2031E2920041D6C1 /* DialogHelper.swift in Sources */,
+				CE3EB3022031EAA50041D6C1 /* NoConnectionVC.swift in Sources */,
 				CE315F2B2031BA72007A71C0 /* LoadDealer.swift in Sources */,
 				CE315F332031BE6C007A71C0 /* WeatherModel.swift in Sources */,
+				CE3EB2FC2031CB3D0041D6C1 /* WeatherCell.swift in Sources */,
 				CE315F312031BE09007A71C0 /* CityWeather.swift in Sources */,
 				CE315F2F2031BDBC007A71C0 /* Globals.swift in Sources */,
 				CE315F192031B9AC007A71C0 /* AppDelegate.swift in Sources */,

@@ -25,7 +25,7 @@ class WeatherApi {
     private let weatherUnit = "&units=metric"
     private let baseImageUrlString = "http://openweathermap.org/img/w/"
     private let imageExtension = ".png"
-    func getCitiesGroup(withIds ids: String, onSuccess: @escaping(Data) -> Void, onError: @escaping(Int) -> Void) {
+    func getCities(fromIds ids: String, onSuccess: @escaping(Data) -> Void, onError: @escaping(Int) -> Void) {
         let completeUrlString = baseUrlString + groupEndPoint + appId + ids + weatherUnit
         guard let url = URL.init(string: completeUrlString) else {
             return
